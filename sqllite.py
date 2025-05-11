@@ -32,4 +32,4 @@ data = cursor.execute("SELECT * FROM student")
 for row in data:
     print(row)
 
-
+connection.close()
